@@ -1,0 +1,39 @@
+body{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-areas: 
+    "header header header header header"
+    "main main main main aside"
+    "main main main main aside"
+    "footer footer footer footer footer";
+    background-image: linear-gradient(white,blanchedalmond );
+    background-repeat: no-repeat;
+    font-family: Big system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+header{
+    grid-area: header;
+    background-color: black;
+    color:white;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+    text-align: center;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-around;
+}
