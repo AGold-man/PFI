@@ -75,8 +75,12 @@ th{
 td{
   
     text-align: center;
+    background-color: beige;
 }
 
+.image{
+    background-color: #3aafa9;
+}
 img{
 float: right;
  height: 300px;
